@@ -540,22 +540,26 @@ number:
     max_value: 999999
 
 font:
-  - file: "gfonts://Roboto@500"
+  - file: "gfonts://Noto+Sans+SC@500"
     id: font_small
     size: 14
     glyphs: ${ALLOWED_CHARACTERS}
-  - file: "gfonts://Roboto@500"
+
+  - file: "gfonts://Noto+Sans+SC@500"
     id: font_medium
     size: 24
     glyphs: ${ALLOWED_CHARACTERS}
-  - file: "gfonts://Roboto@500"
+
+  - file: "gfonts://Noto+Sans+SC@500"
     id: font_large
     size: 40
     glyphs: ${ALLOWED_CHARACTERS}
-  - file: "gfonts://Roboto@500"
+
+  - file: "gfonts://Noto+Sans+SC@500"
     id: font_extra_large
     size: 60
     glyphs: [Z]
+
   - file: "https://github.com/AlmostInteractive/ESP32-S3-Box-3-Voice-Assistant-Sensor-Dock/raw/master/fonts/materialdesignicons-webfont.ttf"
     id: font_icon_tiny
     size: 30

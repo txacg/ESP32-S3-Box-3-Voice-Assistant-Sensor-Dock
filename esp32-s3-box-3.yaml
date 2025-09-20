@@ -540,22 +540,34 @@ number:
     max_value: 999999
 
 font:
-  - file: "gfonts://Noto+Sans+SC@500"
+  - file:
+      type: gfonts
+      family: ${font_family}
+      weight: 300
     id: font_small
     size: 14
     glyphs: ${ALLOWED_CHARACTERS}
 
-  - file: "gfonts://Noto+Sans+SC@500"
+  - file:
+      type: gfonts
+      family: ${font_family}
+      weight: 300
     id: font_medium
     size: 24
     glyphs: ${ALLOWED_CHARACTERS}
 
-  - file: "gfonts://Noto+Sans+SC@500"
+  - file:
+      type: gfonts
+      family: ${font_family}
+      weight: 300
     id: font_large
     size: 40
     glyphs: ${ALLOWED_CHARACTERS}
 
-  - file: "gfonts://Noto+Sans+SC@500"
+  - file:
+      type: gfonts
+      family: ${font_family}
+      weight: 300
     id: font_extra_large
     size: 60
     glyphs: [Z]
